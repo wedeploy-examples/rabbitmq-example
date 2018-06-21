@@ -1,0 +1,11 @@
+{
+    "id": "nginx",
+    "dependencies": ["rabbitmq"],
+    "volumes": {
+        "config": "/etc/nginx/"
+    },
+    "healthCheck": {
+        "url": "localhost",
+        "startPeriod": 20
+    }
+}
