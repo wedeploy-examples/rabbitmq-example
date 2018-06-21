@@ -6,8 +6,8 @@
         "RABBITMQ_DEFAULT_PASS": "passw0rd"
     },
     "volumes": {
-        "data": "/var/lib/rabbitmq/",
-        "congif": "/etc/rabbitmq/"
+        "config": "/etc/rabbitmq/",
+        "data": "/var/lib/rabbitmq/"
     },
     "healthCheck": {
         "url": "localhost:15672"
