@@ -1,8 +1,8 @@
 [![Deploy](https://cdn.wedeploy.com/images/deploy.svg)](https://console.wedeploy.com/deploy?repo=https://github.com/wedeploy-examples/react-example)
 
-# Rabbitmq
+# RabbitMQ
 
-An example of [Rabbitmq](https://www.rabbitmq.com/) and [Nginx](https://www.nginx.com/) on [WeDeploy](https://wedeploy.com/).
+An example of [RabbitMQ](https://www.rabbitmq.com/) and [Nginx](https://www.nginx.com/) on [WeDeploy](https://wedeploy.com/).
 
 ## Instructions
 
