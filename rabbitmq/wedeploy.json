@@ -1,6 +1,10 @@
 {
     "id": "rabbitmq",
     "port": 5672,
+    "env": {
+        "RABBITMQ_DEFAULT_USER": "user",
+        "RABBITMQ_DEFAULT_PASS": "passw0rd"
+    },
     "volumes": {
         "data": "/var/lib/rabbitmq/",
         "congif": "/etc/rabbitmq/"
